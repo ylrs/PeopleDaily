@@ -32,6 +32,9 @@
 		F3E879341920AEC60049D13E /* CheckNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E879261920AEC60049D13E /* CheckNetwork.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3E879351920AEC60049D13E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E879281920AEC60049D13E /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3E879361920AEC60049D13E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8792A1920AEC60049D13E /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F3E8793F1920C2D60049D13E /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8793B1920C2D60049D13E /* MBProgressHUD+Add.m */; };
+		F3E879401920C2D60049D13E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3E8793C1920C2D60049D13E /* MBProgressHUD.bundle */; };
+		F3E879411920C2D60049D13E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8793E1920C2D60049D13E /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,11 @@
 		F3E879291920AEC60049D13E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		F3E8792A1920AEC60049D13E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		F3E879381920B09F0049D13E /* DefineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineModel.h; sourceTree = "<group>"; };
+		F3E8793A1920C2D60049D13E /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		F3E8793B1920C2D60049D13E /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		F3E8793C1920C2D60049D13E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		F3E8793D1920C2D60049D13E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F3E8793E1920C2D60049D13E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +197,7 @@
 		F3E8790B1920AE410049D13E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F3E879391920C2D60049D13E /* MBProgressHUD */,
 				F3E879371920B0640049D13E /* Models */,
 				F3E879101920AEC60049D13E /* AFNetworking */,
 				F3E8790C1920AE410049D13E /* NetManager */,
@@ -251,6 +260,18 @@
 				F3E879381920B09F0049D13E /* DefineModel.h */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F3E879391920C2D60049D13E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F3E8793A1920C2D60049D13E /* MBProgressHUD+Add.h */,
+				F3E8793B1920C2D60049D13E /* MBProgressHUD+Add.m */,
+				F3E8793C1920C2D60049D13E /* MBProgressHUD.bundle */,
+				F3E8793D1920C2D60049D13E /* MBProgressHUD.h */,
+				F3E8793E1920C2D60049D13E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +351,7 @@
 			files = (
 				344E6132191E69E000578AF8 /* InfoPlist.strings in Resources */,
 				344E613A191E69E100578AF8 /* Images.xcassets in Resources */,
+				F3E879401920C2D60049D13E /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +377,8 @@
 				F3E8792F1920AEC60049D13E /* AFJSONUtilities.m in Sources */,
 				344E6138191E69E000578AF8 /* AppDelegate.m in Sources */,
 				F3E879331920AEC60049D13E /* AFXMLRequestOperation.m in Sources */,
+				F3E879411920C2D60049D13E /* MBProgressHUD.m in Sources */,
+				F3E8793F1920C2D60049D13E /* MBProgressHUD+Add.m in Sources */,
 				F3E8790F1920AE4E0049D13E /* NetManager.m in Sources */,
 				F3E8792E1920AEC60049D13E /* AFJSONRequestOperation.m in Sources */,
 				F3E8792C1920AEC60049D13E /* AFHTTPRequestOperation.m in Sources */,
