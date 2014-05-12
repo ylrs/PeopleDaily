@@ -21,11 +21,6 @@
 #define HOMEMAKING_DOMAIN_STATIC @"/ticket"
 
 
-//设备型号
-#define DEVICEMODEL [NSString stringWithFormat:@"%@",[UIDevice currentDevice].model]
-#define DEVICEVERSION [NSString stringWithFormat:@"%@",[UIDevice currentDevice].systemVersion]
-#define APPID @"2"
-#define PLATFORM @"iOS"
 //屏幕高度
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 #define SCREEN_HEIGHT (iPhone5 ? 568 : 480)
