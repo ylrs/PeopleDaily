@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Piao/!svn/ver/60/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking
+END
+AFHTTPClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFHTTPClient.m
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFNetworking.h
+END
+AFXMLRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFXMLRequestOperation.h
+END
+AFNetworkActivityIndicatorManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFNetworkActivityIndicatorManager.h
+END
+UIImageView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/UIImageView+AFNetworking.h
+END
+AFXMLRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFXMLRequestOperation.m
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFURLConnectionOperation.h
+END
+AFNetworkActivityIndicatorManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFNetworkActivityIndicatorManager.m
+END
+AFJSONRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFJSONRequestOperation.h
+END
+UIImageView+AFNetworking.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/UIImageView+AFNetworking.m
+END
+AFJSONUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFJSONUtilities.h
+END
+AFJSONRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Piao/!svn/ver/60/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFJSONRequestOperation.m
+END
+AFURLConnectionOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFURLConnectionOperation.m
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFHTTPRequestOperation.h
+END
+AFJSONUtilities.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFJSONUtilities.m
+END
+AFPropertyListRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFPropertyListRequestOperation.h
+END
+AFImageRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFImageRequestOperation.h
+END
+AFHTTPRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFHTTPRequestOperation.m
+END
+AFHTTPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFHTTPClient.h
+END
+AFPropertyListRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFPropertyListRequestOperation.m
+END
+AFImageRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Piao/!svn/ver/38/PiaoJia/iOS/TicketFolderNew/TicketFolder/DeviceNet/AFNetworking/AFImageRequestOperation.m
+END

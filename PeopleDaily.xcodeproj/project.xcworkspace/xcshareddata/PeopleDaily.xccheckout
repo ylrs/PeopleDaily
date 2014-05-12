@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FDAE3456-4ECC-4DBD-84CF-F736634DCC1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PeopleDaily</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E282D206-AC0D-46F5-840B-AD7F2E604CC2</key>
+		<string>https://github.com/ylrs/PeopleDaily.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PeopleDaily.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E282D206-AC0D-46F5-840B-AD7F2E604CC2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ylrs/PeopleDaily.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E282D206-AC0D-46F5-840B-AD7F2E604CC2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E282D206-AC0D-46F5-840B-AD7F2E604CC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>zhouhao</string>
+		</dict>
+	</array>
+</dict>
+</plist>
