@@ -14,7 +14,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ListenNewsViewController *listenView = [[ListenNewsViewController alloc] init];
-    self.window.rootViewController = listenView;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:listenView];
+    self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
