@@ -7,13 +7,14 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ListenNewsViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    ListenNewsViewController *listenView = [[ListenNewsViewController alloc] init];
+    self.window.rootViewController = listenView;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

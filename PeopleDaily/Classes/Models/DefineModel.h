@@ -8,17 +8,18 @@
 
 #ifndef PeopleDaily_DefineModel_h
 #define PeopleDaily_DefineModel_h
-
-
-
 #endif
 
+
+//ipad屏幕高度与宽度
+#define MAINSCREEN_WIDTH  [UIScreen mainScreen].bounds.size.height
+#define MAINSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.width
 
 #define HOMEMAKING_HTTP_METHOD_POST @"POST"
 #define HOMEMAKING_HTTP_METHOD_GET @"GET"
 
-#define HOMEMAKING_DOMAIN @"http://192.168.17.204:8026"
-#define HOMEMAKING_DOMAIN_STATIC @"/ticket"
+#define HOMEMAKING_DOMAIN @"http://api.duoting.fm"
+#define HOMEMAKING_DOMAIN_STATIC @"/v1"
 
 
 //屏幕高度
