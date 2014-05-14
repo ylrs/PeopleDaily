@@ -40,6 +40,7 @@
 		34C44E9F19227741006DEF46 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C44E9719227741006DEF46 /* 6.png */; };
 		34C44EA019227741006DEF46 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C44E9819227741006DEF46 /* 7.png */; };
 		34C44EA119227741006DEF46 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C44E9919227741006DEF46 /* 8.png */; };
+		34D0B7771923C39B0090B36F /* HomeNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0B7761923C39B0090B36F /* HomeNewsViewController.m */; };
 		F3E8790F1920AE4E0049D13E /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E8790E1920AE4E0049D13E /* NetManager.m */; };
 		F3E8792B1920AEC60049D13E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E879121920AEC60049D13E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3E8792C1920AEC60049D13E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E879141920AEC60049D13E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -122,6 +123,8 @@
 		34C44E9719227741006DEF46 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		34C44E9819227741006DEF46 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		34C44E9919227741006DEF46 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		34D0B7751923C39B0090B36F /* HomeNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNewsViewController.h; sourceTree = "<group>"; };
+		34D0B7761923C39B0090B36F /* HomeNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNewsViewController.m; sourceTree = "<group>"; };
 		F3E8790D1920AE4E0049D13E /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
 		F3E8790E1920AE4E0049D13E /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 		F3E879111920AEC60049D13E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
@@ -257,6 +260,7 @@
 		344E612D191E69E000578AF8 /* PeopleDaily */ = {
 			isa = PBXGroup;
 			children = (
+				34D0B7741923C3690090B36F /* HomeNewView */,
 				34D7F5AA1922694C0077124B /* images */,
 				342EA23719211686005A1D9C /* ListenNew */,
 				344E6136191E69E000578AF8 /* AppDelegate.h */,
@@ -295,6 +299,15 @@
 				344E6149191E69E100578AF8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34D0B7741923C3690090B36F /* HomeNewView */ = {
+			isa = PBXGroup;
+			children = (
+				34D0B7751923C39B0090B36F /* HomeNewsViewController.h */,
+				34D0B7761923C39B0090B36F /* HomeNewsViewController.m */,
+			);
+			name = HomeNewView;
 			sourceTree = "<group>";
 		};
 		34D7F5AA1922694C0077124B /* images */ = {
@@ -525,6 +538,7 @@
 				F3E879311920AEC60049D13E /* AFPropertyListRequestOperation.m in Sources */,
 				342EA228192115CB005A1D9C /* AQGridViewAnimatorItem.m in Sources */,
 				342EA229192115CB005A1D9C /* AQGridViewCell.m in Sources */,
+				34D0B7771923C39B0090B36F /* HomeNewsViewController.m in Sources */,
 				F3E879301920AEC60049D13E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				342EA23D19211686005A1D9C /* ListenNewsViewCell.m in Sources */,
 			);
