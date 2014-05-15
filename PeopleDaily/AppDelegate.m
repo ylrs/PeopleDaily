@@ -8,17 +8,58 @@
 
 #import "AppDelegate.h"
 #import "ListenNewsViewController.h"
+
+#import "NewsViewController.h"
+#import "BaseViewController.h"
+#import "AskViewController.h"
+#import "PictureViewController.h"
+#import "AssembleViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    ListenNewsViewController *listenView = [[ListenNewsViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:listenView];
-    self.window.rootViewController = nav;
+//    ListenNewsViewController *listenView = [[ListenNewsViewController alloc] init];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:listenView];
+//    self.window.rootViewController = nav;
+    
+    
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithInt:0] forKey:@"ListViewButton"];
+    
+    
+    NewsViewController *news = [[NewsViewController alloc] init];
+    BaseViewController *baseIndex = [[BaseViewController alloc] initWithRootViewController:news];
+    
+    AskViewController *ask = [[AskViewController alloc] init];
+    BaseViewController *baseAsk = [[BaseViewController alloc] initWithRootViewController:ask];
+    
+    PictureViewController *picture = [[PictureViewController alloc] init];
+    BaseViewController *basePicture = [[BaseViewController alloc] initWithRootViewController:picture];
+    
+    AssembleViewController *assemble = [[AssembleViewController alloc] init];
+    BaseViewController *baseAssemble = [[BaseViewController alloc] initWithRootViewController:assemble];
+    
+    _tabBarController = [[UITabBarController alloc] init];
+    _tabBarController.tabBar.hidden = YES;
+    _tabBarController.viewControllers = [NSArray arrayWithObjects:baseIndex,baseAsk,basePicture,baseAssemble, nil];
+    
+    
+    self.window.rootViewController = _tabBarController;
+
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark - UITabBarControllerDelegate
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    
+}
+
+- (void)selectTabBarController:(NSInteger)index{
+    _tabBarController.selectedIndex = index;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

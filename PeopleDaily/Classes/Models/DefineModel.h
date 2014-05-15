@@ -25,5 +25,5 @@
 //屏幕高度
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 #define SCREEN_HEIGHT (iPhone5 ? 568 : 480)
-#define IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
 #define STATUSBAR_HEIGHT ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? 20 : 0)
